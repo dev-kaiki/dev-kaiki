@@ -1,29 +1,27 @@
-# dev-kaiki — Fullstack Developer
+# dev-kaiki — Bundle (Portfólio + Template)
 
-Construo sistemas completos (frontend + backend + banco + deploy), com foco em **arquitetura**, **qualidade** e **entrega**.
+Este ZIP contém:
 
-- **Frontend:** Next.js / React / UI & Forms
-- **Backend:** NestJS (REST), validações, Swagger, auth
-- **Database:** PostgreSQL, Redis, SQLite (quando faz sentido)
-- **DevOps:** Docker, CI/CD, ambiente local reproduzível
-- **Qualidade:** lint, testes, logs, documentação
+1) **dev-kaiki.github.io/**  
+   - Seu site do portfólio (GitHub Pages) já com Email/WhatsApp configurados.
 
-## 🌐 Portfólio (Hub)
-➡️ https://dev-kaiki.github.io
+2) **fullstack-template/**  
+   - Um template profissional (Next.js + NestJS + Postgres + Docker + CI)
+   - Use como base para criar repos separados:
+     `authkit`, `queueops`, `filevault`, `reportforge`, `shoppulse`, `sprintboard`
 
-## ⭐ Demos em destaque
-- **SprintBoard** (Kanban + realtime + RBAC) — https://github.com/dev-kaiki/sprintboard  
-- **AuthKit** (JWT/Refresh + RBAC + Swagger) — https://github.com/dev-kaiki/authkit  
-- **FileVault** (Upload seguro + MinIO) — https://github.com/dev-kaiki/filevault  
-- **QueueOps** (filas + retries + painel) — https://github.com/dev-kaiki/queueops  
+## Publicar o portfólio (GitHub Pages)
+- Crie o repo: `dev-kaiki.github.io`
+- Envie o conteúdo da pasta `dev-kaiki.github.io/`
+- GitHub → Settings → Pages → Deploy from branch → `main` / root
+- URL: https://dev-kaiki.github.io
 
-## 📌 O que eu entrego
-- Features completas (UI + API + banco)
-- Correção de bugs / build
-- APIs bem documentadas
-- Deploy e manutenção
+## Criar o template no GitHub
+- Crie o repo: `fullstack-template`
+- Envie o conteúdo da pasta `fullstack-template/`
+- Em Settings, marque como **Template repository**
+- Depois, crie cada demo clicando em **Use this template**
 
-## 📫 Contato
+Contato:
 - Email: kaikiiquadros091o@gmail.com
-- WhatsApp: 
-- LinkedIn: https://www.linkedin.com/in/kaiki-ferreira/
+- WhatsApp: https://wa.me/5516991666951
