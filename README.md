@@ -7,6 +7,7 @@ Construo sistemas completos (frontend + backend + banco + deploy), com foco em *
 <a href="https://dev-kaiki.github.io"><img src="https://img.shields.io/badge/Portfolio-dev--kaiki.github.io-111?style=for-the-badge&logo=github&logoColor=white"></a>
 <a href="mailto:kaikiiquadros091o@gmail.com"><img src="https://img.shields.io/badge/Email-kaikiiquadros091o%40gmail.com-111?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://wa.me/5516991666951"><img src="https://img.shields.io/badge/WhatsApp-+55%2016%2099166--6951-111?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/kaiki-ferreira"><img src="https://img.shields.io/badge/LinkedIn-kaiki--ferreira-111?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 </div>
 
@@ -57,6 +58,7 @@ Construo sistemas completos (frontend + backend + banco + deploy), com foco em *
 
 ## 📌 Links
 - **Portfólio:** https://dev-kaiki.github.io  
+- **LinkedIn:** https://www.linkedin.com/in/kaiki-ferreira  
 - **Email:** kaikiiquadros091o@gmail.com  
 - **WhatsApp:** https://wa.me/5516991666951  
 
