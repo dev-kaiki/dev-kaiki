@@ -24,6 +24,6 @@ Construo sistemas completos (frontend + backend + banco + deploy), com foco em *
 - Deploy e manutenção
 
 ## 📫 Contato
-- Email: SEU_EMAIL
+- Email: kaikiiquadros091o@gmail.com
 - WhatsApp: 
 - LinkedIn: https://www.linkedin.com/in/kaiki-ferreira/
