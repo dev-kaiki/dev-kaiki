@@ -1,80 +1,37 @@
-# dev-kaiki — Fullstack Developer (MVPs, Dashboards & APIs)
-Construo **sistemas completos** (frontend + backend + banco + deploy) com foco em **arquitetura, qualidade e entrega**.
-Se você precisa tirar uma ideia do papel com segurança (sem gambiarra), eu monto a base certa e evoluo com você.
+# Kaiki Quadros
 
-[![Portfolio](https://img.shields.io/badge/Portfólio-dev--kaiki.github.io-000?style=for-the-badge)](https://dev-kaiki.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kaiki%20Ferreira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaiki-ferreira)
-[![Email](https://img.shields.io/badge/Email-contato-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kaikiiquadros091o@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Orçamento%20rápido-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5516991666951)
+**Software engineer working where software meets machines.**
+I build systems for CNC machine tools and the shop floor around them — serial protocols, embedded firmware, and AI on top of technical archives. C++, Python, and the parts of a stack that break when real hardware is on the other end.
+
+Based in Brazil · open to remote roles worldwide
 
 ---
 
-## ✅ O que eu entrego (pra negócio real)
-- **MVPs e SaaS**: auth, RBAC, dashboard, métricas, logs e deploy
-- **APIs bem documentadas** (Swagger) + padrões de código e organização
-- **Upload e mídia**: S3/MinIO, presigned URLs, permissões e auditoria
-- **Relatórios**: PDF + histórico + exportação (quando precisa)
-- **Confiabilidade**: filas, retries/backoff, monitoramento, CI
+### The machine, end to end
 
-> Entrega com foco em: **clareza de escopo, milestones e qualidade** (lint, padrões, docs).
+These three projects are one system, taken apart. A CNC machine needs programs sent to it, needs them sent from somewhere, and needs fixing when it stops. I built all three sides at [SMI](https://github.com/dev-kaiki), and they run in production.
 
----
+| | | |
+|---|---|---|
+| **[dnc-serial-engine](https://github.com/dev-kaiki/dnc-serial-engine)** | `C++17` `Qt` | RS-232 DNC engine. Adaptive flow control that streams G-code to controllers with kilobytes of buffer and no telemetry — fast enough to be useful, slow enough not to drop a block mid-cut. |
+| **[esp32-dnc-firmware](https://github.com/dev-kaiki/esp32-dnc-firmware)** | `C++` `FreeRTOS` `ESP32` | The same job on bare metal. Six FreeRTOS tasks, lock-free ring buffers, microSD storage and an embedded web UI, so the machine gets its own Wi-Fi DNC instead of a laptop on a cart. |
+| **[maia-cnc-assistant](https://github.com/dev-kaiki/maia-cnc-assistant)** | `Python` `FastAPI` `RAG` `Flutter` | RAG assistant over a company's technical archive. Multi-stage answer pipeline with safety policy, human-reviewed ingestion, three-level AI cost guards, Flutter app and WhatsApp channel. |
 
-## 🧰 Stack
-**Frontend:** Next.js • React • Dashboards  
-**Backend:** NestJS • REST • Swagger • Auth  
-**Database:** PostgreSQL • Redis  
-**Infra/DevOps:** Docker • GitHub Actions (CI)  
-**Padrão:** organização • documentação • boas práticas
+If you only read one thing, read the [engineering log](https://github.com/dev-kaiki/dnc-serial-engine/tree/main/docs/engineering-log) in the first repo — the flow-control debugging history on live machines, including the fix that caused the next bug.
 
 ---
 
-## ⭐ Projetos em destaque (com foco no que resolvem)
+### What I work with
 
-### 🥇 SprintBoard (Flagship)
-Kanban estilo Trello com **realtime** e controle de acesso (**RBAC**).  
-**Repo:** https://github.com/dev-kaiki/sprintboard
+**Systems & embedded** — C++17, Qt, FreeRTOS, ESP32, RS-232/serial protocols, CMake
+**Backend & AI** — Python, FastAPI, PostgreSQL/pgvector, RAG, OpenAI & Gemini, Docker
+**Apps** — Flutter, TypeScript
+**Ops** — Caddy, CI, versioned migrations, backup and restore
 
-### 🔐 Auth & Segurança (base sólida pra qualquer produto)
-- **AuthKit** — JWT/Refresh + RBAC + Swagger (starter pronto pra produção)  
-  Repo: https://github.com/dev-kaiki/authkit
-- **FileVault** — upload seguro via Presigned URLs + MinIO/S3  
-  Repo: https://github.com/dev-kaiki/filevault
+### How I work
 
-### ⚙️ Confiabilidade & Performance
-- **QueueOps** — Jobs + Retries/Backoff + Monitoring (BullMQ + Redis)  
-  Repo: https://github.com/dev-kaiki/queueops
-
-### 🧾 Relatórios & Dashboards
-- **ReportForge** — geração de PDF + histórico + export JSON  
-  Repo: https://github.com/dev-kaiki/reportforge
-- **ShopPulse** — Admin dashboard com KPIs, filtros e export  
-  Repo: https://github.com/dev-kaiki/shoppulse
+I ship things that run unattended in places where failure is expensive, and I document what I got wrong on the way there. The interesting part of a system is usually the constraint nobody wrote down — the controller that lies about its buffer state, the archive nobody can search, the budget that a retry loop can burn through overnight.
 
 ---
 
-## 🤝 Como eu trabalho (pra você saber o que esperar)
-1) **Briefing** (objetivo, regras do negócio, telas/fluxos)  
-2) **Escopo + milestones** (o que entra e o que não entra)  
-3) **Entrega incremental** (versões pequenas, validação rápida)  
-4) **Docs + handoff** (como rodar, deploy, endpoints e manutenção)
-
----
-
-## 📌 Quer contratar?
-Me chama com:
-- o que você quer construir (ex: “dashboard + login + níveis de acesso”)
-- prazo/urgência
-- referência (prints/links)
-
-📲 WhatsApp: https://wa.me/5516991666951  
-📧 Email: kaikiiquadros091o@gmail.com  
-🌐 Portfólio: https://dev-kaiki.github.io
-
----
-
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=dev-kaiki&show_icons=true&hide_title=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dev-kaiki&layout=compact)
-
-⭐ Se curtir algum projeto, deixa uma Star — ajuda muito!
+📫 [kaikiiquadros091o@gmail.com](mailto:kaikiiquadros091o@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kaiki-ferreira)
