@@ -1,4 +1,4 @@
-# Kaiki Quadros
+# Kaiki Quadros Ferreira
 
 **Software engineer working where software meets machines.**
 I build systems for CNC machine tools and the shop floor around them — serial protocols, embedded firmware, and AI on top of technical archives. C++, Python, and the parts of a stack that break when real hardware is on the other end.
