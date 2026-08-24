@@ -9,7 +9,7 @@ Based in Brazil · open to remote roles worldwide
 
 ### The machine, end to end
 
-These three projects are one system, taken apart. A CNC machine needs programs sent to it, needs them sent from somewhere, and needs fixing when it stops. I built all three sides at [SMI](https://github.com/dev-kaiki), and they run in production.
+These three projects are one system, taken apart. A CNC machine needs programs sent to it, needs them sent from somewhere, and needs fixing when it stops. I built all three sides at [SMI](https://github.com/dev-kaiki), where they are in daily use — real work on real machines, not yet sold as products.
 
 | | | |
 |---|---|---|
