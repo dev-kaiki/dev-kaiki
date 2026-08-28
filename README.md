@@ -17,6 +17,17 @@ These three projects are one system, taken apart. A CNC machine needs programs s
 | **[dnc-android](https://github.com/dev-kaiki/dnc-android)**<br>[![build](https://github.com/dev-kaiki/dnc-android/actions/workflows/build.yml/badge.svg)](https://github.com/dev-kaiki/dnc-android/actions/workflows/build.yml) | `Qt 6` `QML` `C++17` `JNI` | The same engine on a tablet bolted to the machine, reaching RS-232 through USB OTG and an FTDI chip. Ported unchanged behind an extracted `ISerialPort` — then made to actually send, through five faults that raised no error. |
 | **[maia-cnc-assistant](https://github.com/dev-kaiki/maia-cnc-assistant)**<br>[![tests](https://github.com/dev-kaiki/maia-cnc-assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/dev-kaiki/maia-cnc-assistant/actions/workflows/tests.yml) | `Python` `FastAPI` `RAG` `Flutter` | RAG assistant over a company's technical archive. Multi-stage answer pipeline with safety policy, human-reviewed ingestion, three-level AI cost guards, Flutter app and WhatsApp channel. |
 
+### What it actually looks like
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dev-kaiki/dnc-serial-engine/main/docs/screenshots/operation.png" width="49%" alt="DNC operation screen with the RS-232 line signals monitored live">
+  <img src="https://raw.githubusercontent.com/dev-kaiki/maia-cnc-assistant/main/docs/screenshots/knowledge-base.png" width="49%" alt="MAIA knowledge base: 18,299 documents processed and 1,038,300 passages indexed">
+</p>
+
+<p align="center"><sub>Left: the DNC feeding a machine, with the eight RS-232 signals that tell it whether to slow down.<br>Right: the archive behind the AI assistant — 18,299 documents, 1,038,300 indexed passages, 14 machine brands.</sub></p>
+
+---
+
 If you only read one thing, read the [engineering log](https://github.com/dev-kaiki/dnc-serial-engine/tree/main/docs/engineering-log) in the first repo — the flow-control debugging history on live machines, including the fix that caused the next bug.
 
 ---
